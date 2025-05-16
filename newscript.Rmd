@@ -19,5 +19,8 @@ ggplot(data = pie_crab,
        aes(x = lattitude,
            y = size)) +
   geom_point
+scale_color_gradient(low = "#555555",
+                     higher = "#562820")
+
 ```
 
